@@ -1,4 +1,4 @@
-package matchmaker
+package main
 
 import (
 	"fmt"
@@ -26,7 +26,7 @@ func validate(x int) {
 		os.Exit(0)
 	}
 }
-func matchmaker_ak() {
+func main() {
 	fmt.Println("Welcome to my Matchmaker Program.")
 	fmt.Println(" ")
 	fmt.Println("Let's see if we are soulmates!")
